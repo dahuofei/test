@@ -1,0 +1,83 @@
+<template>
+	<view class="login">
+		<text class="title">µÇÂ½</text>
+		<input placeholder='ÕË»§' />
+		<input password='true' placeholder='ÃÜÂë' />
+		<button type="warn" form-type="submit" class="login-but">µÇÂ½</button>
+		<text class="">Íü¼ÇÃÜÂë</text>
+		<text class="">±§Ç¸£¬ÎÒ»¹Ã»ÓÐÕËºÅÐÅÏ¢</text>
+		<text>ÉêÇë×¢²á</text>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				title: 'Hello'
+			}
+		},
+		onLoad() {
+
+		},
+		methods: {
+
+		}
+	}
+</script>
+
+<style>
+	.login {
+		width: 100%;
+	}
+
+	.login.title {
+		height: 32rpx;
+		font-size: 48rpx;
+		font-family: PingFangSC-Semibold;
+		line-height: 0rpx;
+		color: rgba(34, 34, 34, 1);
+		opacity: 1;
+		text-align: center;
+	}
+
+	input {
+		width: 600rpx;
+		height: 44rpx;
+		background: rgba(255, 255, 255, 1);
+		border: 1px solid rgba(187, 187, 187, 1);
+		box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
+		opacity: 1;
+		border-radius: 200rpx;
+	}
+
+	.login .login-but {
+		width: 320rpx;
+		height: 90rpx;
+		background: rgba(255, 86, 107, 1);
+		box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+		opacity: 1;
+		border-radius: 200rpx;
+	}
+
+	.action-row {
+		width: 83upx;
+		height: 20upx;
+		font-size: 15px;
+		font-family: PingFangSC-Medium;
+		line-height: 0rpx;
+		color: rgba(34, 34, 34, 1);
+		letter-spacing: 133.3333282470703px;
+		opacity: 0.2;
+	}
+
+	.jihwf {
+		width: 198upx;
+		height: 24upx;
+		font-size: 18px;
+		font-family: PingFangSC-Regular;
+		line-height: 0px;
+		color: rgba(34, 34, 34, 1);
+		opacity: 0.7;
+	}
+</style>
